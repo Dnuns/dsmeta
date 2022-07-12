@@ -1,7 +1,11 @@
-import { useState } from 'react'
+import NotificationButton from './components/NotificationButton';
 
 function App() {
-  return(<h1>Olá!</h1>);
+  return(
+    <>
+      <NotificationButton />
+    </>
+  );
 }
 
 export default App
