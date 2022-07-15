@@ -27,7 +27,7 @@ function SalesCard() {
       .catch((e) => {
         console.log(e);
       });
-  }, []);
+  }, [minDate, maxDate]);
 
   return (
     <div className="dsmeta-card">
