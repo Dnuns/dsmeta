@@ -35,6 +35,16 @@ https://david-dsmeta.netlify.app
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
+## Available Scripts
+
+In the project directory, you can run:
+
+```sh
+yarn dev
+```
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Preview
 
