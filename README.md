@@ -1,14 +1,41 @@
 # DsMeta
 
-This is a full stack project developed @ "Semana Spring React" promoted by Devsuperior.
+This is a full stack project developed @ "Semana Spring React" promoted by Devsuperior. It sends notifications to the seller phone number with the informations about the sales.
 
 ## Tech Stack
 
-<img alt="TypeScript" width="26px" src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" /><img alt="Java" width="26px" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" /><img alt="React.js" width="26px" src="https://cdn-icons-png.flaticon.com/512/919/919851.png" /><img alt="Spring" width="86px" src="https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg" /><img alt="SQL" width="26px" src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" /><img alt="Twilio" width="46px" src="https://smbhd.com/wp-content/uploads/2022/02/Twilio-Logo-1.png" />
+**Client:** React, TypeScript, Axios, React-tostify, React-datepicker, Vite
+
+**Server:** Java 17, Spring, SQL, Twilio
 
 
 ## Link
 https://david-dsmeta.netlify.app
+
+## API Reference
+
+#### Get sales
+
+```http
+  GET https://david-dsmeta.herokuapp.com/sales?minDate=2022-01-01&maxDate=2022-03-31
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `minDate` | `string` | **Required**. Your API key |
+| :-------- | :------- | :------------------------- |
+| `maxDate` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET https://david-dsmeta.herokuapp.com/sales/${id}/notification
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
 
 ## Preview
 
