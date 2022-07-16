@@ -23,7 +23,6 @@ https://david-dsmeta.netlify.app
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `minDate` | `string` | **Required** |
-| :-------- | :------- | :------------------------- |
 | `maxDate` | `string` | **Required**. |
 
 #### Get item
