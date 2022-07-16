@@ -25,7 +25,7 @@ https://david-dsmeta.netlify.app
 | `minDate` | `string` | **Required** |
 | `maxDate` | `string` | **Required**. |
 
-#### Get item
+#### Send notififaction
 
 ```http
   GET https://david-dsmeta.herokuapp.com/sales/${id}/notification
