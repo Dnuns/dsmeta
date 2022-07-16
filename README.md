@@ -22,9 +22,9 @@ https://david-dsmeta.netlify.app
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `minDate` | `string` | **Required**. Your API key |
+| `minDate` | `string` | **Required** |
 | :-------- | :------- | :------------------------- |
-| `maxDate` | `string` | **Required**. Your API key |
+| `maxDate` | `string` | **Required**. |
 
 #### Get item
 
