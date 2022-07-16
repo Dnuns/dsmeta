@@ -37,7 +37,7 @@ https://david-dsmeta.netlify.app
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the frontend project directory, you can run:
 
 ```sh
 yarn dev
