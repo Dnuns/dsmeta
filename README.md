@@ -1,6 +1,6 @@
 # DsMeta
 
-This is a full stack project developed @ "Semana Spring React" promoted by Devsuperior. It sends notifications to the seller phone number with the informations about the sales.
+This is a full stack project developed @ "Semana Spring React" promoted by Devsuperior. It displays the sales report sends notifications to the seller phone number with the informations about the sales.
 
 ## Tech Stack
 
